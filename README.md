@@ -1,4 +1,4 @@
-# Amoha - Eye Disease Recognition
+# Amoha - Eye Disease Detection
 
 Welcome to the amoha project! This README provides an overview of the project, setup instructions, and other relevant details.
 
@@ -16,7 +16,7 @@ Welcome to the amoha project! This README provides an overview of the project, s
 ## Visit
 
 - [Repository](https://github.com/aabubokarr/amoha)
-- [Website](https://amoha.netlify.app/)
+- [Website](https://aabubokarr.github.io/amoha/)
 
 ## About
 
@@ -56,45 +56,43 @@ Welcome to the amoha project! This README provides an overview of the project, s
 
 ```
 amoha/
-├── client/                          # Frontend React application
-│   ├── public/                      # Static assets
-│   │   └── img/                     # Image files
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── icons/               # Icon components
-│   │   │   ├── pages/               # Page components
-│   │   │   │   ├── Home.jsx         # Landing page
-│   │   │   │   ├── LoginPage.jsx    # Login page
-│   │   │   │   ├── RegisterPage.jsx # Registration page
-│   │   │   │   └── DashboardPage.jsx # User dashboard
-│   │   │   ├── sections/            # Section components
-│   │   │   │   ├── Hero.jsx         # Hero section
-│   │   │   │   ├── About.jsx        # About section
-│   │   │   │   ├── Disease.jsx      # Disease information
-│   │   │   │   ├── Train.jsx       # Training process
-│   │   │   │   ├── Feedback.jsx     # Testimonials
-│   │   │   │   ├── Contact.jsx     # Contact form
-│   │   │   │   └── Footer.jsx      # Footer
-│   │   │   └── ui/                  # UI components
-│   │   │       ├── button.jsx
-│   │   │       └── card.jsx
-│   │   ├── context/
-│   │   │   └── AuthContext.jsx      # Authentication context
-│   │   ├── lib/
-│   │   │   └── utils.js             # Utility functions
-│   │   ├── App.jsx                  # Main app component
-│   │   ├── main.jsx                 # Entry point
-│   │   └── index.css                # Global styles
-│   ├── package.json
-│   └── vite.config.js
-└── README.md
+├── .github/
+│   └── workflows/                 # GitHub Actions workflows
+├── node_modules/                  # Installed npm dependencies
+├── public/                        # Static public assets
+├── src/                           # Main React application source
+│   ├── components/                # Application components and pages
+│   │   ├── Ai/                    # AI-related components
+│   │   ├── BookPage/              # Book page components
+│   │   ├── Contact/               # Contact page/components
+│   │   ├── Diseases/              # Disease-related components
+│   │   ├── Feedback/              # Feedback components
+│   │   ├── Footer/                # Footer components
+│   │   ├── Home/                  # Home page components
+│   │   ├── Input/                 # Input/form components
+│   │   ├── Login/                 # Login/authentication components
+│   │   ├── Pages/                 # General application pages
+│   │   └── Train/                 # Training-related components
+│   ├── fonts/                     # Custom font files
+│   ├── App.jsx                    # Main application component
+│   ├── index.css                  # Global CSS and Tailwind styles
+│   └── main.jsx                   # React application entry point
+├── .gitignore                     # Files excluded from Git
+├── index.html                     # Main HTML entry point
+├── LICENSE                        # Project license
+├── package-lock.json              # Locked dependency versions
+├── package.json                   # Project metadata and dependencies
+├── postcss.config.js              # PostCSS configuration
+├── README.md                      # Project documentation
+├── tailwind.config.js             # Tailwind CSS configuration
+└── vite.config.js                 # Vite build configuration
 ```
 
 ## Contributors
 
 <p align="center">
-  <a href="https://github.com/woabu0/amoha/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=woabu0/amoha" alt="Contributors" />
+  <a href="https://github.com/aabubokarr/amoha/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=aabubokarr/amoha" alt="Contributors" />
   </a>
 </p>
 

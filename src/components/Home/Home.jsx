@@ -4,16 +4,10 @@ import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import Button from "./Button";
 import { Link } from "react-router-dom";
-import { Helmet, HelmetData } from "react-helmet-async";
 
 export const Home = () => {
-  const helmetData = new HelmetData({});
   return (
     <div id="home" className="mt-9 px-[10px] lg:px-9">
-      <Helmet helmetData={helmetData}>
-        <title>Amoha.ai - Home</title>
-        <link rel="canonical" href="https://amoha.ai/" />
-      </Helmet>
       <div className="m-auto px-5 pt-5 md:pt-11 lg:px-9 xl:px-28 2xl:w-[1366px] bg-[#0049FF] rounded-[40px] py-[100px]">
         <motion.div
           className="flex justify-between items-center"

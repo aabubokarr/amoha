@@ -23,6 +23,19 @@
   src: url("./fonts/b.OTF");
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body {
+  color: #fff;
+  background-color: #fafafa;
+  font-size: 22px;
+  overflow-x: hidden;
+}
+
 .r {
   font-family: "regular";
 }

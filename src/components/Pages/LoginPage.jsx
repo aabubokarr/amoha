@@ -1,16 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Login } from "../Login/Login";
-import { Helmet, HelmetData } from "react-helmet-async";
 
 export const LoginPage = () => {
-  const helmetData = new HelmetData({});
   return (
     <div className="loginpage">
-      <Helmet helmetData={helmetData}>
-        <title>Amoha.ai - Login</title>
-        <link rel="canonical" href="https://amoha.ai/loginpage" />
-      </Helmet>
       <Login />
       <div className="w-full px-9 bg-black">
         <div className="w-full pt-5 2xl:w-[1366px] m-auto">
