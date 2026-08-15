@@ -31,7 +31,7 @@ export const Login = () => {
               </Link>
             </div>
           </motion.div>
-          <div className="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] w-[280px] md:w-[400px] xl:w-[350px] 2xl:w-[400px] m-auto bg-[#FAFAFA] shadow-md p-5 md:p-10 xl:p-5 2xl:p-10 xl:px-10">
+          <div className="absolute rounded-3xl top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] w-[280px] md:w-[400px] xl:w-[350px] 2xl:w-[400px] m-auto bg-[#FAFAFA] shadow-md p-5 md:p-10 xl:p-5 2xl:p-10 xl:px-10">
             <h1 className="text-center text-[35px] text-[#1A1A1A] b">Login</h1>
             <div className="mt-4 xl:mt-0 2xl:mt-4">
               <InputField

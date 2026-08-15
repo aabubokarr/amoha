@@ -1,4 +1,4 @@
-# Amoha - Eye Disease Detection
+# Amoha - Landing Page
 
 ![Amoha](amoha.png)
 
