@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Login } from "../Login/Login";
+import { UniversalFooter } from "../Footer/UniversalFooter";
 
 export const LoginPage = () => {
   return (
@@ -20,9 +21,7 @@ export const LoginPage = () => {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.4, ease: "linear", duration: 0.2 }}
           >
-            <h6 className="text-[12px] r text-[#777E90]">
-              Copyright © 2024 amoha.ai
-            </h6>
+            <UniversalFooter />
             <h6 className="text-[12px]">Privacy Policy</h6>
           </motion.div>
         </div>
