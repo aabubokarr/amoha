@@ -4,6 +4,7 @@ import emailjs from "@emailjs/browser";
 
 export const Footer = () => {
   const form = useRef();
+  const year = new Date().getFullYear();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -88,7 +89,7 @@ export const Footer = () => {
             transition={{ delay: 0.4, ease: "linear", duration: 0.2 }}
           >
             <h6 className="text-[12px] r text-[#777E90]">
-              Copyright © 2024 amoha.ai
+              Copyright © {new Date().getFullYear()} Amoha. All rights reserved.
             </h6>
             <h6 className="text-[12px]">
               Privacy Policy

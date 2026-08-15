@@ -1,6 +1,8 @@
 # Amoha - Eye Disease Detection
 
-Welcome to the amoha project! This README provides an overview of the project, setup instructions, and other relevant details.
+![Amoha](amoha.png)
+
+Welcome to the **Amoha** project! This README provides an overview of the project, setup instructions, and other relevant details.
 
 ## Table of Contents
 
@@ -20,14 +22,14 @@ Welcome to the amoha project! This README provides an overview of the project, s
 
 ## About
 
-**Amoha** is an AI website to scan eyes that can detect Diabetic Retinopathy, Macular Edema, Age-Related Macular Degeneration, Glaucoma and Cataract.
+**Amoha** is an AI-powered eye screening platform designed to analyze retinal images and help detect common eye conditions, including Diabetic Retinopathy, Macular Edema, Age-Related Macular Degeneration (AMD), Glaucoma, and Cataract. Amoha aims to make early eye disease detection faster and easier.
 
 ## Features
 
-- Eye Scan
-- Disease
-- Train
-- Contact
+- Modern UI/UX
+- Responsive Design
+- Interactive Animation
+- Contact Form
 
 ## Installation
 
@@ -41,7 +43,7 @@ Welcome to the amoha project! This README provides an overview of the project, s
    ```
 3. Install dependencies:
    ```bash
-   npm install
+   npm i
    ```
 4. Start the frontend:
    ```bash
